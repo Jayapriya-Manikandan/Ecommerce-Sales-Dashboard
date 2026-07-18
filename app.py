@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("🛒 Ecommerce Sales Dashboard")
 
 # Load dataset
-df = pd.read_csv("data/Sample - Superstore.csv", encoding="latin1")
+df = pd.read_csv("Sample - Superstore.csv", encoding="latin1")
 
 # Sidebar Filters
 st.sidebar.header("Filters")
